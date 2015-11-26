@@ -5,6 +5,30 @@ Pantone 18-2333 TCX Raspberry Rose
 #D13B7E
 */
 
+@font-family-sans-serif:  "Helvetica Neue", Helvetica, Arial, sans-serif;
+@font-family-serif:       'Tangerine', cursive;
+@font-family-base:        @font-family-serif;
+@font-size-base:          28px;
+
+/*
+@font-size-large:         ceil((@font-size-base * 1.25)); // ~18px
+@font-size-small:         ceil((@font-size-base * 0.85)); // ~12px
+
+@font-size-h1:            floor((@font-size-base * 2.6)); // ~36px
+@font-size-h2:            floor((@font-size-base * 2.15)); // ~30px
+@font-size-h3:            ceil((@font-size-base * 1.7)); // ~24px
+@font-size-h4:            ceil((@font-size-base * 1.25)); // ~18px
+@font-size-h5:            @font-size-base;
+@font-size-h6:            ceil((@font-size-base * 0.85)); // ~12px
+*/
+
+/*
+@headings-font-family:    inherit;
+@headings-font-weight:    700;
+@headings-line-height:    1.1;
+@headings-color:          inherit;
+*/
+
 @brand-primary:         #D13B7E;
 /*
 @brand-success:         #5cb85c;
@@ -18,5 +42,11 @@ Pantone 18-2333 TCX Raspberry Rose
 
 html {
     background: url('/assets/images/vines1.png') no-repeat top left fixed;
-    background-size: 40%;
+    background-size: 90%;
+}
+
+@media (min-width: 768px) {
+    html {
+        background-size: 40%;
+    }
 }
