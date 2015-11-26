@@ -1,0 +1,27 @@
+@media (min-width: 768px) {
+    .sidebar-nav .navbar {
+        /* uncomment if you would like the menu to be fixed */
+        /* position: fixed;
+        width: 170px;
+        z-index: 2;*/
+        .navbar-collapse {
+            padding: 0;
+            max-height: none;
+        }
+        ul {
+            float: none;
+            &:not {
+                display: block;
+            }
+        }
+        li {
+            float: none;
+            display: block;
+            a {
+                padding-top: 12px;
+                padding-bottom: 12px;
+            }
+        }
+    }
+}
+.sidebar-nav .navbar-header{ float: none; }
