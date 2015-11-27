@@ -32,12 +32,12 @@ Pantone 18-2333 TCX Raspberry Rose
 @brand-danger:          #d9534f;
 */
 html {
-  background: url('/assets/images/vines1.png') no-repeat top left fixed;
+  background: url('/assets/images/vines1.png') no-repeat top right fixed;
   background-size: 90%;
 }
 @media (min-width: 768px) {
   html {
-    background-size: 40%;
+    background-size: 60%;
   }
 }
 @media (min-width: 768px) {
