@@ -3,25 +3,20 @@ exclude:
     - Gemfile
     - Gemfile.lock
     - CNAME
+    - assets/images/sources
 
 timezone: Europe/London
 
 highlighter: pygments
 
 navigation:
-  - title: Home
+  - title: The Wedding
     url: /home
-  - title: Times
-    url: /times
-  - title: Ceremony
-    url: /ceremony
-  - title: Reception
-    url: /reception
-  - title: Hotels
-    url: /hotels
-  - title: Directions
-    url: /directions
-  - title: RSVP
+  - title: Locations
+    url: /locations
+  - title: Accommodation
+    url: /accommodation
+  - title: R.S.V.P.
     url: /rsvp
 
 defaults:

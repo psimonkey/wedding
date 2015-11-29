@@ -3,3 +3,4 @@ _site/
 .jekyll-metadata
 Gemfile.lock
 bootstrap-3.3.5
+assets/images/sources
