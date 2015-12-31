@@ -16,7 +16,7 @@ navigation:
     url: /locations
   - title: Accommodation
     url: /accommodation
-  - title: R.S.V.P.
+  - title: RSVP
     url: /rsvp
 
 defaults:

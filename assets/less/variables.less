@@ -39,14 +39,16 @@ Pantone 18-2333 TCX Raspberry Rose
 
 @body-bg:               fade(#f8f8f8, 90%);
 @navbar-default-bg:     fade(#f8f8f8, 90%);
+@panel-bg:              fade(#f8f8f8, 90%);
 
 body {
   min-height: 100%;
 }
 
-html {
-    background: url('/assets/images/background1.png') no-repeat top left fixed;
-    background-size: 90%;
+.container {
+    background: url('/assets/images/background1.png') no-repeat top left;
+    background-size: 100%;
+    min-height: 100%;
 }
 
 @media (min-width: 768px) {
