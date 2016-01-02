@@ -25,6 +25,11 @@ html {
 .panel-body .intro-image {
   margin: 0px;
 }
+@media (max-width: 767px) {
+  .panel-body .intro-image {
+    display: none !important;
+  }
+}
 .panel-body .intro-image img {
   display: block;
   max-width: 100%;
