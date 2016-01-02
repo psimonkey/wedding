@@ -25,4 +25,4 @@ defaults:
       path: ""
     values:
       layout: default
-      title: "Alison & Simon's Wedding"
+      title: "Alison &amp; Simon's Wedding"

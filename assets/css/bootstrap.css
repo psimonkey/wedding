@@ -11,38 +11,13 @@ Pantone 18-2333 TCX Raspberry Rose
 /*
 @font-size-large:         ceil((@font-size-base * 1.25)); // ~18px
 @font-size-small:         ceil((@font-size-base * 0.85)); // ~12px
-
-@font-size-h1:            floor((@font-size-base * 2.6)); // ~36px
-@font-size-h2:            floor((@font-size-base * 2.15)); // ~30px
-@font-size-h3:            ceil((@font-size-base * 1.7)); // ~24px
-@font-size-h4:            ceil((@font-size-base * 1.25)); // ~18px
-@font-size-h5:            @font-size-base;
-@font-size-h6:            ceil((@font-size-base * 0.85)); // ~12px
 */
-/*
-@font-size-base:          28px;
-@headings-font-weight:    700;
-@headings-line-height:    1.1;
-@headings-color:          inherit;
-*/
-/*
-@brand-success:         #5cb85c;
-@brand-info:            #5bc0de;
-@brand-warning:         #f0ad4e;
-@brand-danger:          #d9534f;
-*/
-body {
-  min-height: 100%;
+html {
+  overflow-y: scroll;
 }
 .container {
   background: url('/assets/images/background1.png') no-repeat top left;
-  background-size: 100%;
-  min-height: 100%;
-}
-@media (min-width: 768px) {
-  html {
-    background-size: 60%;
-  }
+  background-size: cover;
 }
 @media (min-width: 768px) {
   .sidebar-nav .navbar {
@@ -1324,27 +1299,27 @@ h6 .small,
 }
 h1,
 .h1 {
-  font-size: 36px;
+  font-size: 59px;
 }
 h2,
 .h2 {
-  font-size: 30px;
+  font-size: 49px;
 }
 h3,
 .h3 {
-  font-size: 24px;
+  font-size: 40px;
 }
 h4,
 .h4 {
-  font-size: 18px;
+  font-size: 29px;
 }
 h5,
 .h5 {
-  font-size: 14px;
+  font-size: 23px;
 }
 h6,
 .h6 {
-  font-size: 12px;
+  font-size: 20px;
 }
 p {
   margin: 0 0 10px;
