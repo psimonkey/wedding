@@ -14,6 +14,8 @@ navigation:
     url: /home
   - title: Locations
     url: /locations
+  - title: Travel
+    url: /travel
   - title: Accommodation
     url: /accommodation
   - title: RSVP
